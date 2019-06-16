@@ -1,5 +1,8 @@
 # Export training sessions from Polar Flow website
 
+[![Build Status](https://travis-ci.org/scanban/polar-flow-export.svg?branch=master)](https://travis-ci.org/scanban/polar-flow-export)
+![GitHub](https://img.shields.io/github/license/scanban/polar-flow-export.svg)
+
 ## examples
 
 export all sessions in tcx format to the zip archive `c:\exports\polar_exports.zip`:

@@ -1,0 +1,25 @@
+[package]
+name = "polar_export"
+version = "0.1.0"
+authors = ["staslock <staslock@gmail.com>"]
+edition = "2018"
+description = "An utility to export training sessions from Polar Flow website"
+license = "MIT"
+repository = "https://github.com/scanban/polar-flow-export.git"
+readme = "README.md"
+keywords = ["export", "polar"]
+categories = ["utilities"]
+
+
+[dependencies]
+reqwest = "0.9.18"
+chrono = "0.4.6"
+serde = "1.0.92"
+serde_json = "1.0.39"
+serde_derive = "1.0.92"
+clap = "2.33.0"
+zip = "0.5.2"
+
+[profile.release]
+lto = true
+panic = 'abort'

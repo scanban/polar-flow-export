@@ -28,6 +28,7 @@ const BASE_URI: &str = "https://flow.polar.com";
 struct CalendarEvent {
     #[serde(rename = "type")]
     record_type: String,
+    #[serde(default)]
     timestamp: u64,
     url: String,
     #[serde(default, rename = "listItemId")]
